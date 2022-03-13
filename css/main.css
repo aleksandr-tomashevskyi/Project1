@@ -28,6 +28,9 @@
 #nav_list li:last-of-type {
     margin-left: 15px;
 }
+a:active{
+    text-shadow: 1px 2px 5px gray;
+}
 #contact_button {
     background: #9AA4FF;
     color: #fff;
@@ -40,15 +43,19 @@
 }
 #hosting {
     display: flex;
-    flex: 1;
     justify-content: space-between;
     align-items: center;
 }
 .sub_block_left {
-    margin-right: 15rem;
+    margin-right: 100px;
+}
+.image{
+    flex: 0 0 50%;
 }
 #hosting_pic {
-    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 h2 {
     font-size: 60px;
@@ -125,11 +132,11 @@ h3 {
     color: #fff;
     font-size: 24px;
 }
-#hosting_plans_section{
+#pricing_section{
     padding: 66px 0 100px;
     text-align: center;
 }
-#hosting_plans_block{
+#pricing_block{
     display: flex;
     justify-content: space-evenly;
     margin: 3%;
@@ -191,6 +198,7 @@ margin-bottom: 31px;
     border: solid black 1px;
     padding: 10px 0;
     color: black;
+    cursor: pointer;
 }
 .learn_buttons:hover{
     background-color: grey;
@@ -206,8 +214,10 @@ margin-bottom: 31px;
     align-items: center;
 }
 .sub_block_left_customer {
-    margin-left: 15rem;
+    margin-left: 100px;
 }
 #customer_pic{
-    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

@@ -25,7 +25,7 @@ html, body{
 input, button, area{font-family: inherit;}
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
-a, a:visited{text-decoration: none;}
+a, a:visited{text-decoration: none; color: inherit; font-family: inherit;}
 a:hover{text-decoration: none;}
 ul, li{list-style: none;}
 img{vertical-align: top;}
