@@ -12,7 +12,7 @@
 }
 #nav_list {
     display: flex;
-    flex: 1;
+    flex: 0;
     justify-content: space-between;
     font-size: 24px;
     font-weight: 400;
@@ -48,9 +48,7 @@ a:active{
 }
 .sub_block_left {
     margin-right: 100px;
-}
-.image{
-    flex: 0 0 50%;
+    flex: 1 0 40%;
 }
 #hosting_pic {
     width: 100%;
@@ -184,7 +182,6 @@ margin-bottom: 31px;
 }
 #security {
     display: flex;
-    flex: 1;
     justify-content: space-between;
     align-items: center;
 }
@@ -209,11 +206,11 @@ margin-bottom: 31px;
 #customer_support {
     padding: 150px 0;
     display: flex;
-    flex: 1;
     justify-content: space-between;
     align-items: center;
 }
 .sub_block_left_customer {
+    flex: 0 1 60%;
     margin-left: 100px;
 }
 #customer_pic{
