@@ -7,19 +7,18 @@
 }
 #nav {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center;
 }
 #nav_list {
     display: flex;
-    flex: 0;
+    flex: 0 1 50%;
     justify-content: space-between;
-    font-size: 24px;
-    font-weight: 400;
-    margin-right: 10%;
-    margin-left: 30%;
+    margin-right: 5%;
 }
 #nav_list li {
+    font-size: 24px;
+    font-weight: 400;
     display: inline;
 }
 #nav_list li:first-of-type {
@@ -138,6 +137,7 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     margin: 3%;
+    flex-wrap: wrap;
 }
 .hosting_plan:hover{
     background-color: #fff;
@@ -147,13 +147,15 @@ h3 {
 .hosting_plan h3{
     margin-top: 20px;
 }
-#hosting_plans_block sub{
+.hosting_plan sub{
     font-size: 18px;
 }
 .hosting_plan{
+    flex: 0 0 350px;
     border: solid 1px #9AA4FF;
     border-radius: 10px;
     font-size: 24px;
+    margin: 0 -10px;
 }
 .hosting_plan:nth-child(2){
     margin: 0 15px;
